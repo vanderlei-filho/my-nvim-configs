@@ -6,11 +6,14 @@ return {
   },
   cmd = "Trouble",
   keys = {
-    { "<leader>xw", "<cmd>Trouble diagnostics toggle<CR>", desc = "Open Trouble workspace diagnostics" },
+    {
+      "<leader>xw",
+      "<cmd>Trouble diagnostics toggle<CR>",
+      desc = "Open Trouble workspace diagnostics",
+    },
     { "<leader>xd", "<cmd>Trouble diagnostics toggle filter.buf=0<CR>", desc = "Open Trouble file diagnostics" },
-    { "<leader>xq", "<cmd>Trouble quickfix toggle<CR>", desc = "Open Trouble quickfix list" },
-    { "<leader>xl", "<cmd>Trouble loclist toggle<CR>", desc = "Open Trouble location list" },
-    { "<leader>xt", "<cmd>Trouble todo toggle<CR>", desc = "Open todos in Trouble"},
-  }
+    { "<leader>xq", "<cmd>Trouble quickfix toggle<CR>",                 desc = "Open Trouble quickfix list" },
+    { "<leader>xl", "<cmd>Trouble loclist toggle<CR>",                  desc = "Open Trouble location list" },
+    { "<leader>xt", "<cmd>Trouble todo toggle<CR>",                     desc = "Open todos in Trouble" },
+  },
 }
-
